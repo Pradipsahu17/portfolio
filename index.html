@@ -29,6 +29,12 @@
   <link rel="stylesheet" type="text/css" href="assets/css/virtual.css">
   
   <link rel="stylesheet" type="text/css" href="assets/css/topbar.virtual.css">
+  <script>
+    function onsubmit(){
+      alert ("Thank you for your message!!");
+    }
+  </script>
+  
 </head>
 <body class="theme-red">
   
@@ -396,7 +402,7 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <form class="vg-contact-form">
+          <form class="vg-contact-form" onsubmit="onsubmit()">
             <div class="form-row">
               <div class="col-12 mt-3 wow fadeInUp">
                 <input class="form-control" type="text" name="Name" placeholder="Your Name">
